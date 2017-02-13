@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
 
 	printf("Test Eclipse project!");
 
-	printf("\x1b[20;15HPress Start to exit.");
+	printf("\x1b[20;15HPress Succ to exit.");
 
     while(aptMainLoop()) {
         gspWaitForVBlank();
